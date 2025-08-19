@@ -12,7 +12,7 @@ This is a full-stack web application built with Next.js and TypeScript. It featu
 1. **Clone the repository:**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Fecoded/benmore-assessment
    cd benmore-assessment
    ```
 
