@@ -1,0 +1,9 @@
+build
+node_modules
+.github
+__tests__
+.bundle
+.husky
+android
+ios
+patches

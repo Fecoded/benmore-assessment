@@ -1,0 +1,101 @@
+{
+  "users": [
+    {
+      "id": "61ac065b-d56e-4aae-a395-141dd2da215f",
+      "name": "John Doe",
+      "email": "johndoe@gmail.com",
+      "password": "$2b$10$ZGUo6xs8aZ7ESriVCItAzusiMU50nj6gBy//DWGQi/LysC0yGKbpO",
+      "role": "user",
+      "createdAt": "2025-08-18T11:07:54.688Z"
+    },
+    {
+      "id": "cc655f74-26e1-4544-978d-c53be8777d3f",
+      "name": "Sam Smith",
+      "email": "samsmith@gmail.com",
+      "password": "$2b$10$bilnG1asTEk320R5ud5jJeU8c767Cs.E0VLrJbfBtHGs7LpzmYzWC",
+      "role": "user",
+      "createdAt": "2025-08-19T13:41:43.190Z"
+    }
+  ],
+  "events": [
+    {
+      "id": "761683ac-e91b-4674-ad42-d10bed77a5bc",
+      "title": "Event Two",
+      "description": "Event Two Description",
+      "date": "2025-07-01T06:15:00Z",
+      "venue": "Faith Arena",
+      "createdBy": "61ac065b-d56e-4aae-a395-141dd2da215f",
+      "createdAt": "2025-08-18T17:59:43.334Z"
+    },
+    {
+      "id": "a2013185-91f0-4170-b6e4-eec33d784699",
+      "title": "Event Two",
+      "description": "Event Two Description",
+      "date": "2025-07-01T06:15:00Z",
+      "venue": "Faith Arena",
+      "createdBy": "61ac065b-d56e-4aae-a395-141dd2da215f",
+      "createdAt": "2025-08-19T15:57:11.771Z"
+    },
+    {
+      "id": "9c50a228-9c7f-45c2-b328-bb6a9c3014d2",
+      "title": "Event Three",
+      "description": "Event Three Description",
+      "date": "2025-07-01T06:15:00Z",
+      "venue": "Wisdom Center",
+      "createdBy": "61ac065b-d56e-4aae-a395-141dd2da215f",
+      "createdAt": "2025-08-19T16:00:19.202Z"
+    }
+  ],
+  "tickets": [
+    {
+      "id": "1d450b14-d33d-4e91-bc9d-f0a1ddd9e825",
+      "eventId": "761683ac-e91b-4674-ad42-d10bed77a5bc",
+      "price": "0",
+      "quantityAvailable": "10",
+      "ticketType": "Free",
+      "createdAt": "2025-08-19T11:44:04.355Z"
+    },
+    {
+      "id": "7ca752b9-18ec-410b-9a30-95b67bebf576",
+      "eventId": "9c50a228-9c7f-45c2-b328-bb6a9c3014d2",
+      "price": "0",
+      "quantityAvailable": "5",
+      "ticketType": "Free",
+      "createdAt": "2025-08-19T16:02:46.308Z"
+    },
+    {
+      "id": "2392a58f-4cd8-4ac6-84f7-eaf32f38d141",
+      "eventId": "a2013185-91f0-4170-b6e4-eec33d784699",
+      "price": "0",
+      "quantityAvailable": "20",
+      "ticketType": "Free",
+      "createdAt": "2025-08-19T16:05:55.958Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "03cd7bc7-7d24-448b-a2f6-1f06239831f3",
+      "eventId": "761683ac-e91b-4674-ad42-d10bed77a5bc",
+      "ticketId": "1d450b14-d33d-4e91-bc9d-f0a1ddd9e825",
+      "userId": "cc655f74-26e1-4544-978d-c53be8777d3f",
+      "status": "confirmed",
+      "createdAt": "2025-08-19T15:51:11.195Z"
+    },
+    {
+      "id": "b0644c6a-df3a-49c0-9805-36fa2794aab6",
+      "eventId": "9c50a228-9c7f-45c2-b328-bb6a9c3014d2",
+      "ticketId": "7ca752b9-18ec-410b-9a30-95b67bebf576",
+      "userId": "61ac065b-d56e-4aae-a395-141dd2da215f",
+      "status": "confirmed",
+      "createdAt": "2025-08-19T16:03:21.032Z"
+    },
+    {
+      "id": "7e34296f-1bad-48c0-a191-bde659233006",
+      "eventId": "761683ac-e91b-4674-ad42-d10bed77a5bc",
+      "ticketId": "1d450b14-d33d-4e91-bc9d-f0a1ddd9e825",
+      "userId": "61ac065b-d56e-4aae-a395-141dd2da215f",
+      "status": "confirmed",
+      "createdAt": "2025-08-19T16:03:37.883Z"
+    }
+  ]
+}

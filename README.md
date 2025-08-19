@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Benmore Assessment
+
+This is a full-stack web application built with Next.js and TypeScript. It features authentication, event management, ticketing, and user management modules. The project uses API routes for backend logic and a mock database for local development.
+
+## Prerequisites
+
+- Node.js (v18 or higher recommended)
+- Yarn (preferred) or npm
 
 ## Getting Started
 
-First, run the development server:
+1. **Clone the repository:**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   ```bash
+   git clone <repository-url>
+   cd benmore-assessment
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Install dependencies:**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   ```bash
+   yarn install
+   # or
+   npm install
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. **Run the development server:**
 
-## Learn More
+   ```bash
+   yarn dev
+   # or
+   npm run dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. **Open the app:**
+   Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `src/app/` — Main application pages and API routes
+- `src/components/` — Reusable UI components
+- `src/utils/` — Utility functions and helpers
+- `src/db.json` — Mock database for local development
 
-## Deploy on Vercel
+## Scripts
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `yarn dev` — Start the development server
+- `yarn build` — Build the application for production
+- `yarn start` — Start the production server
+- `yarn lint` — Run ESLint
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Notes
+
+- The project uses a mock database (`src/db.json`). For production, integrate a real database.
+- Environment variables can be set in a `.env.local` file if needed.
+
+## License
+
+This project is for assessment purposes only.
